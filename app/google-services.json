@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "780921868020",
+    "project_id": "autodeel-bb1db",
+    "storage_bucket": "autodeel-bb1db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780921868020:android:d69776f0b3204737fc18a1",
+        "android_client_info": {
+          "package_name": "com.project.AutoDeelsoftwareproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780921868020-5shsm0cb0lqiu5bg4u7rmoh85klduo3k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.AutoDeelsoftwareproject",
+            "certificate_hash": "f47dc397f0200e7858de0d3e7cd4a1d289767f1f"
+          }
+        },
+        {
+          "client_id": "780921868020-3pqipe9lgmmbq0ugldf6157a4pcc4bb3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIfYvkagrGwtt0VklU8WnO9BMjzMNpds4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780921868020-3pqipe9lgmmbq0ugldf6157a4pcc4bb3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.AutoDeelsoftwareproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.project.AutoDeelsoftwareproject.browse_car_bottomnav"
+            android:label="@string/title_activity_browse_car_bottomnav"></activity>
+        <activity android:name="com.project.AutoDeelsoftwareproject.settings" />
+        <activity android:name="com.project.AutoDeelsoftwareproject.user_profile" />
+        <activity android:name="com.project.AutoDeelsoftwareproject.Login" />
+        <activity android:name="com.project.AutoDeelsoftwareproject.Signup" />
+        <activity android:name="com.project.AutoDeelsoftwareproject.signup_login" />
+        <activity android:name="com.project.AutoDeelsoftwareproject.notifications" />
+        <activity android:name="com.project.AutoDeelsoftwareproject.contact_us" />
+        <activity android:name="com.project.AutoDeelsoftwareproject.payment" />
+        <activity android:name="com.project.AutoDeelsoftwareproject.review" />
+        <activity android:name="com.project.AutoDeelsoftwareproject.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

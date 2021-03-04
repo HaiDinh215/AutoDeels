@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">softwareProject</string>
+    <string name="title_activity_browse_car_bottomnav">MainActivity</string>
+    <string name="title_home">Used</string>
+    <string name="title_dashboard">New</string>
+    <string name="title_notifications">Search</string>
+</resources>

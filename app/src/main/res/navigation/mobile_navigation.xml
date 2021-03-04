@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/new_car">
+
+    <fragment
+        android:id="@+id/used_car"
+        android:name="com.project.AutoDeelsoftwareproject.ui.home.UsedCarFragment"
+        android:label="Used car"
+        tools:layout="@layout/fragment_usedCar" />
+
+    <fragment
+        android:id="@+id/new_car"
+        android:name="com.project.AutoDeelsoftwareproject.ui.dashboard.NewCarFragment"
+        android:label="New car"
+        tools:layout="@layout/fragment_newcar" />
+
+    <fragment
+        android:id="@+id/search"
+        android:name="com.project.AutoDeelsoftwareproject.ui.notifications.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+</navigation>

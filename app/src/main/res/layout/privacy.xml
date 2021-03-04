@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bd801c1c">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="406dp"
+        android:layout_height="247dp"
+        android:layout_marginStart="5dp"
+        android:text="AutoDeels has been built on trust and will always work on building trust with its customers. We will keep your information safe by having trustworthy employees.
+        If you choose to ue our services, the information will only be used for providing and improving the service. We will not share your information with anyone except as described in this policy."
+        android:textColor="#FFFF"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
