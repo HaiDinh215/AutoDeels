@@ -5,7 +5,7 @@
 This app was co-developed in my software project class with 2 other students. My main responsibillity was building app layout, implementing the back end functionallity and database component.
 
 ## Running the App
-Download and run the **"AutoDeels.apk"**
+Download and run the **"AutoDeels.apk"** using an android emulator
 
 Once you run the app you'll need to create an account to sign in to start exploring the app! This app was only built for a school project and isn't really built to work in reality so some functionalities might not work properly.
 
