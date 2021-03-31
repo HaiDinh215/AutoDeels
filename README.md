@@ -10,6 +10,7 @@ Download and run the **"AutoDeels.apk"**
 Once you run the app you'll need to create an account to sign in to start exploring the app! This app was only built for a school project and isn't really built to work in reality so some functionalities might not work properly.
 
 ## Some images and GIF demonstration from the app
+<p align="center"><img source="./readme_assets/AutoDeels_signup_login.gif" width="100%"></p>
 
 ## DataBase 
 This project uses Google Firebase
