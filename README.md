@@ -31,5 +31,10 @@ Once you run the app you'll need to create an account to sign in to start explor
 ## DataBase 
 The database to store user informations in this project is Google Firebase
 
+## Technologies Used
+* Activities layout was designed using Adobe XD
+* Components was built and exported using Zeplin
+* AutoDeels application was built and compiled using Android Studio
+
 ## About the bad code
 This project was built and created simultaneously as I learn to build an android application so the project was not planned or designed very well before development began and therefore there is still a lot of redundancy and the code was just horribly written. Also, this project did have a strict deadline and a lot of rules and regulations. Overall, it was a fun experience of learning android development!
