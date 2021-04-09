@@ -2,7 +2,7 @@
 
 **My first ever android app!** Written in Java with Android Studio. 
 
-This app was co-developed in my software project class with 2 other students. My main responsibillity was building app layout, implementing the back end functionallity and database component.
+This app was co-developed in my software project class with 2 other students. My main responsibility was building the app layout, implementing the back-end functionality and database component.
 
 ## Running the App
 Download and run the **"AutoDeels.apk"** using an android emulator
