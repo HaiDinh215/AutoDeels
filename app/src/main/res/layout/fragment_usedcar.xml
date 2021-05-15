@@ -1,67 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#bd801c1c  "
-    tools:context=".ui.home.UsedCarFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#bd801c1c  "
+        tools:context=".ui.home.UsedCarFragment">
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="152dp"
-        android:layout_height="194dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="98dp"
-        android:layout_marginEnd="42dp"
-        android:layout_marginBottom="46dp"
-        android:clickable="true"
-        android:src="@drawable/component_gm"
-        app:layout_constraintBottom_toTopOf="@+id/imageView11"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView8"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="149dp"
+            android:layout_height="191dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:clickable="true"
+            android:src="@drawable/component_ford"
+            app:layout_constraintEnd_toStartOf="@+id/imageView9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="152dp"
+            android:layout_height="194dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="40dp"
+            android:clickable="true"
+            android:src="@drawable/component_gm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="191dp"
         android:layout_marginStart="39dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="136dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="14dp"
         android:clickable="true"
         android:src="@drawable/component_honda"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView11"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="149dp"
-        android:layout_height="191dp"
-        android:layout_marginStart="39dp"
-        android:layout_marginTop="98dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="46dp"
-        android:clickable="true"
-        android:src="@drawable/component_ford"
-        app:layout_constraintBottom_toTopOf="@+id/imageView10"
-        app:layout_constraintEnd_toStartOf="@+id/imageView9"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="136dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="44dp"
         android:clickable="true"
         android:src="@drawable/component_toyota"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+    </androidx.constraintlayout.widget.ConstraintLayout>

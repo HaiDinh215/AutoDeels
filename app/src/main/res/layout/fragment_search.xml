@@ -64,10 +64,8 @@
         android:layout_marginStart="66dp"
         android:layout_marginTop="26dp"
         android:layout_marginEnd="63dp"
-        android:layout_marginBottom="81dp"
         android:background="@null"
         android:src="@drawable/search_any"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/model" />
@@ -86,14 +84,15 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="159dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="120dp"
         android:background="@null"
         android:src="@drawable/search_btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.725" />
+        app:layout_constraintTop_toBottomOf="@+id/any" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
